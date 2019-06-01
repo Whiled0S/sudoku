@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Количество открытых клеток</title>
+  <script src="range.js"></script>
+</head>
+<body>
+<ul>
+  <form action="level.php" method="POST">
+    <p>Выберите количество открытых клеток</p>
+    <input type="range" id="cells" name="cells" min="10" max="80" step="1"><br>
+    <label for="cells">Количество открытых клеток: </label><span id="count"></span><br><br>
+    <input type="submit" value="Продолжить">
+  </form>
+</ul>
+</body>
+</html>
